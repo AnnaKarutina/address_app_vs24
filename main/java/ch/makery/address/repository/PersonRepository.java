@@ -11,7 +11,7 @@ public class PersonRepository {
     /**
      * The data as an observable list of Persons.
      */
-    private ObservableList<Person> persons = FXCollections.observableArrayList();
+    private final ObservableList<Person> persons = FXCollections.observableArrayList();
 
     public PersonRepository() {
         // Add some sample data
